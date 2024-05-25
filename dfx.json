@@ -1,16 +1,15 @@
 {
   "canisters": {
-    "Temi_backend": {
-      "main": "src/Temi_backend/main.mo",
+    "temi": {
+      "main": "src/temi/main.mo",
       "type": "motoko"
     }
   },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8008",
+      "type": "ephemeral"
     }
   },
-  "output_env_file": ".env",
   "version": 1
 }
