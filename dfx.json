@@ -1,13 +1,13 @@
 {
   "canisters": {
-    "temi": {
-      "main": "src/temi/main.mo",
+    "olatunji": {
+      "main": "src/olatunji/main.mo",
       "type": "motoko"
     }
   },
   "networks": {
     "local": {
-      "bind": "127.0.0.1:8008",
+      "bind": "127.0.0.1:8020",
       "type": "ephemeral"
     }
   },
